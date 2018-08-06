@@ -1,28 +1,27 @@
-*
-
-{
+* {
     box-sizing: border-box;
     text-align: center;
-  }
-  .wrapper {
-      width:1024px;
-      margin: 40px auto;
-  }
-  body {
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 40px auto;
+}
+
+body {
     background-image: url(modern-wallpaper.jpg)
-  }
-  
-  .clearfix::after {
+}
+
+.clearfix::after {
     content: "";
     clear: both;
     display: table;
-  }
-  
-  #Amanda {
+}
+
+#Amanda {
     background-color: teal;
     font-family: cursive;
-    color: white
-    font-size: 30px;
+    color: white font-size: 30px;
     padding: 50px;
     text-align: center;
     line-height: 1.5em;
@@ -32,86 +31,89 @@
     top: 0;
     margin-left: 30px;
     border: 5px black solid;
-  }
-  
-  header {
-    color:black;
-    font-size:30px;
-  }
-  h4 {
+}
+
+header {
+    color: black;
+    font-size: 30px;
+}
+
+h4 {
     background-color: teal;
-    width: 100% ;
-   text-align: center;
-   margin-top:250px;
-  }
-  
-  h1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 250px;
+}
+
+h1 {
     color: teal;
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     margin-top: 10px;
     font-style: oblique;
-    border-bottom:2px black solid;
-  }
-  
-  #link {
+    border-bottom: 2px black solid;
+}
+
+#link {
     position: absolute;
     top: 50px;
     right: 200px;
-  }
-  #link1 {
-    position:absolute;
-    top:50px;
-    right:100px;
-  }
-  #link2 {
-    position:absolute;
-    top:50px;
-    right:300px;
-  }
-  
-  .hangman {
+}
+
+#link1 {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+
+#link2 {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.hangman {
     float: left;
     width: 33.3%;
     height: 300px;
-    background-image:url(ipad.jpg);
+    background-image: url(ipad.jpg);
     margin-left: 20px;
     margin-top: 20px;
     border: 5px black solid;
-  }
-  
-  #RPGGame {
+}
+
+#RPGGame {
     float: left;
     width: 33.3%;
     height: 300px;
-    background-image:url(iphone.jpg);
+    background-image: url(iphone.jpg);
     margin-left: 20px;
     margin-top: 20px;
     border: 5px black solid;
-  }
-  
-  #TriviaGame {
-    float:left;
-    width: 33.3%;
-    height: 300px;
-    background-image:url(books.jpg);
-    margin-left: 20px;
-    border: 5px black solid;
-    margin-top: 20px;
-  }
-  
-  #RutgersInfoWidget {
+}
+
+#TriviaGame {
     float: left;
     width: 33.3%;
     height: 300px;
-    background-image:url(boombox.jpg);
+    background-image: url(books.jpg);
     margin-left: 20px;
     border: 5px black solid;
     margin-top: 20px;
-  }
-  
-  #RockPaperScissors {
+}
+
+#RutgersInfoWidget {
+    float: left;
+    width: 33.3%;
+    height: 300px;
+    background-image: url(boombox.jpg);
+    margin-left: 20px;
+    border: 5px black solid;
+    margin-top: 20px;
+}
+
+#RockPaperScissors {
     overflow: auto;
     clear: both;
     width: 33%;
@@ -119,34 +121,30 @@
     padding: 20px;
     margin-left: 20px;
     margin-top: 40px;
-    background-image:url(tv.jpg);
+    background-image: url(tv.jpg);
     border: 5px solid;
-  }
+}
 
-  .
-  @media screen and (max-width:980px) {
-      body {
-          background-color: lightskyblue;
-      
-  }
-
-  .wrapper {
-      width: 800px;
-      margin-bottom: 30px;
-  }
-
-  @media screen and (max-width:768px) {
-      body {
-          background-color:lightslategray;
-      }
-    .wrapper {
-        width:500px;
-        margin-bottom: 30px;
+. @media screen and (max-width:980px) {
+    body {
+        background-color: lightskyblue;
+        width:800px;
     }
+       
+    }
+    @media screen and (max-width:768px) {
+        body {
+            background-color: lightslategray;
+            width:100%;
+        }
+        
+        @media screen and (max-width:640px) {
+            body {
+                background-color: lightgrey;
+            width:100%;
+                    }
 
-  @media screen and (max-width:640px) {
-      body {
-          background-color:lightgrey;
-          
-      }
-  
+                  
+                    
+                    
+                
