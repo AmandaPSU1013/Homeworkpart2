@@ -1,0 +1,80 @@
+#link {
+    position: fixed;
+    right: 150px;
+    top: 75px;
+}
+
+#link1 {
+    position: fixed;
+    right: 75px;
+    top: 75px;
+}
+
+#link2 {
+    position: fixed;
+    right: 225px;
+    top: 75px;
+}
+
+body {
+    background-image: url(grey.jpg)
+}
+#Amanda {
+    background-color: black;
+    color: white;
+    font-family: Georgia;
+    font-size: 30px;
+    padding: 50px;
+    text-align: center;
+    line-height: 1.5em;
+    width: 300px;
+    height: 50px;
+    position:fixed;
+    left: o;
+    top: 0;
+    margin-left: 50px;
+    margin-top: 25px;
+    border: 5px pink solid;
+}
+
+
+h1 {
+    color:teal;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position:fixed;
+    left:50px;
+    bottom:350px;
+    border-bottom: 2px black solid;
+
+}
+
+#name {
+    position:fixed;
+    left:50px;
+    bottom:300px;
+    
+}
+
+#label2 {
+    position:fixed;
+    left:50px;
+    bottom:200px;
+}
+
+#text {
+    position:fixed;
+    left:50px;
+    bottom:100px;
+
+}
+
+button {
+    position:fixed;
+    left:50px;
+    bottom:75px;
+}
+
+ 
+
+
