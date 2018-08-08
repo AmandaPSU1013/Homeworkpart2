@@ -8,6 +8,7 @@
     margin: 40px auto;
 }
 
+
 body {
     background-image: url(modern-wallpaper.jpg)
 }
@@ -21,12 +22,14 @@ body {
 #Amanda {
     background-color: teal;
     font-family: cursive;
-    color: white font-size: 30px;
+    color: white;
+    font-size: 30px;
     padding: 50px;
     text-align: center;
     line-height: 1.5em;
     width: 300px;
-    height: 250px: position:fixed;
+    height: 250px;
+    position: relative;
     left: o;
     top: 0;
     margin-left: 30px;
@@ -124,28 +127,24 @@ h1 {
     margin-top: 40px;
     background-image: url(tv.jpg);
     border: 5px solid;
-}
 
-@media screen and (max-width:980px) {
+}@media screen and (max-width:980px) {
     body {
-        background-color: lightskyblue;
-        width:800px;
-    }
-       
+        background-color: mediumturquoise;
+        width: 800px;
     }
     @media screen and (max-width:768px) {
         body {
-            background-color: lightslategray;
-            width:100%;
+            background-color: lightsalmon;
+            width: 100%;
         }
-        
         @media screen and (max-width:640px) {
             body {
-                background-color: lightgrey;
-            width:100%;
-                    }
+            background-color: blue;
+            width: 100%;
+            }
+            .wrapper {
+                width:1024px;
+            }
 
-                  
-                    
-                    
-                
+        

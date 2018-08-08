@@ -1,3 +1,12 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 40px auto;
+}
 #link {
     position: fixed;
     right: 150px;
@@ -17,10 +26,11 @@
 }
 
 body {
-    background-image: url(grey.jpg)
+    background-image: url(modern-wallpaper.jpg)
 }
+
 #Amanda {
-    background-color: black;
+    background-color: teal;
     color: white;
     font-family: Georgia;
     font-size: 30px;
@@ -30,51 +40,68 @@ body {
     width: 300px;
     height: 50px;
     position:fixed;
+    position:fixed;
     left: o;
     top: 0;
     margin-left: 50px;
     margin-top: 25px;
-    border: 5px pink solid;
+    border: 5px slategray solid;
 }
 
-
 h1 {
-    color:teal;
-    font-family:Arial, Helvetica, sans-serif;
+    color: teal;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
-    position:fixed;
-    left:50px;
-    bottom:350px;
+    position: fixed;
+    left: 50px;
+    bottom: 300px;
     border-bottom: 2px black solid;
-
 }
 
 #name {
-    position:fixed;
-    left:50px;
-    bottom:300px;
-    
+    position: fixed;
+    left: 50px;
+    bottom: 250px;
 }
 
 #label2 {
-    position:fixed;
-    left:50px;
-    bottom:200px;
+    position: fixed;
+    left: 50px;
+    bottom: 200px;
 }
 
 #text {
-    position:fixed;
-    left:50px;
-    bottom:100px;
-
+    position: fixed;
+    left: 50px;
+    bottom: 125px;
 }
 
 button {
-    position:fixed;
-    left:50px;
-    bottom:75px;
+    position: fixed;
+    left: 50px;
+    bottom: 75px;
 }
+@media screen and (max-width:980px) {
+    body {
+        background-color: mediumturquoise;
+        width: 800px;
+    }
+    @media screen and (max-width:768px) {
+        body {
+            background-color: lightsalmon;
+            width: 100%;
+        }
 
- 
+        @media screen and (max-width:640px) {
+           body {
+            background-color: blue;
+            width:100%
+            
+        }
+
+        .wrapper {
+            width:1024px;
+        }
 
 
+            

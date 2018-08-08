@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+ .wrapper {
+    width: 1024px;
+    margin: 40px auto;
+}
+
+
+
+
+body {
+    background-image: url(modern-wallpaper.jpg);
+    height: 100vh;
+}
+
+#Amanda {
+    background-color: teal;
+    color: white;
+    font-family: Georgia;
+    font-size: 30px;
+    padding: 50px;
+    text-align: center;
+    line-height: 1.5em;
+    width: 300px;
+    height: 250px;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-left: 100px;
+    border: 5px slategray solid;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#link {
+    position: absolute;
+    right: 200px;
+    top: 75px;
+}
+
+#link1 {
+    position: absolute;
+    right: 100px;
+    top: 75px;
+}
+
+#link2 {
+    position: absolute;
+    right: 300px;
+    top: 75px;
+}
+
+h1 {
+    font-size: 24px;
+    color: teal;
+    text-align: left;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#Me {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 960px;
+    margin-top: 75px;
+    float: left;
+    margin-left: 100px;
+    text-align: left;
+    border: 5px slategrey solid;
+    height: 500px;
+    background-image: URL(white.jpg);
+    margin-bottom: 200px;
+}
+
+#footer {
+    text-align: center;
+    background-color: lightgrey;
+    width: 100%;
+    padding: 30px;
+    border-top: 5px teal solid;
+    position: fixed;
+    bottom: 0px;
+}
+@media screen and (max-width:980px) {
+    body {
+        background-color: mediumturquoise
+    }
+
+
+@media screen and (max-width:768px) {
+    body {
+        background-color: lightsalmon;
+        width: 100%;
+    }
+
+    @media screen and (max-width:640px){
+        body {
+        background-color:blue;
+        width:100%;
+    }
+   .wrapper {
+       width:1024px;
+   }
+
+
+
+
